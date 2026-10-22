@@ -1,0 +1,50 @@
+{
+  "app_name": "Dashboard Rekapitulasi Produksi & Jahitan Konveksi",
+  "archetype": "Archetype 4: Swiss & High-Contrast (Authority, Clarity, Truth) adapted for Indonesian Garment & Confection Production with high-density precision",
+  "context": "Dashboards & Admin Panels for Garment/Convection Production Management",
+  "theme": "Light theme with crisp dark obsidian accents and industrial safety amber/emerald highlights (Indonesian textile production style)",
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "mono_font": "JetBrains Mono, monospace"
+  },
+  "colors": {
+    "primary": "#0F172A",
+    "primary_hover": "#1E293B",
+    "accent_emerald": "#10B981",
+    "accent_amber": "#F59E0B",
+    "accent_rose": "#F43F5E",
+    "background": "#F8FAFC",
+    "card_background": "#FFFFFF",
+    "border_color": "#E2E8F0",
+    "text_main": "#0F172A",
+    "text_muted": "#64748B"
+  },
+  "grids": {
+    "base_grid": "grid-cols-1 md:grid-cols-4 lg:grid-cols-12",
+    "gap": "gap-6"
+  },
+  "component_path": "/app/frontend/src/components/",
+  "instructions_to_main_agent": "Build a responsive React application in /app/frontend with a robust FastAPI backend in /app/backend. Implement full authentication (Admin login), dashboard with real-time summary KPIs and charts (Recharts), three dedicated modules (Faris Matesih, Eko Kalijambe, Konveksi Irawan) with full CRUD, search, filter, export to Excel (xlsx) and PDF (jspdf), and realistic Indonesian garment seed data.",
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "You tend to converge toward generic outputs. Make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) where appropriate.",
+    "You MUST NOT apply universal transition. Eg: transition: all.",
+    "You MUST NOT center align the app container (.App { text-align: center; }).",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations.",
+    "NEVER use AI assistant emoji characters like 🤖🧠💭💡🔮 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, entrance animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "All interactive and key informational elements MUST include data-testid attribute.",
+    "All UI texts, labels, and notifications must be in Bahasa Indonesia as requested by the user."
+  ],
+  "image_urls": [],
+  "3d_libraries": [],
+  "accessibility": {
+    "wcag_compliance": "AA minimum, APCA contrast guidelines followed",
+    "reduced_motion_support": "Respect prefers-reduced-motion"
+  }
+}
